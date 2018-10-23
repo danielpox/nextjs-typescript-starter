@@ -1,0 +1,8 @@
+{
+  "name": "nextjs-typescript-starter",
+  "version": "0.1.0",
+  "author": "Daniel Hallgren",
+  "repository": "github:danielpox/nextjs-typescript-starter",
+  "license": "MIT",
+  "private": true
+}
