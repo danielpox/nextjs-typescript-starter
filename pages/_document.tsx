@@ -7,7 +7,7 @@ interface IMyDocumentProps {
 }
 
 class MyDocument extends Document<IMyDocumentProps> {
-  static getInitialProps (context: NextDocumentContext) {
+  static async getInitialProps (context: NextDocumentContext) {
     const sheet = new ServerStyleSheet()
 
     const page = context.renderPage(App => props => sheet.collectStyles(<App {...props} />))
